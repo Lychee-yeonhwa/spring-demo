@@ -1,4 +1,4 @@
-package com.example;
+package com.example.springdemo;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +8,9 @@ import lombok.ToString;
 @Setter
 @ToString
 public class UserDto {
+
     private String name;
     private Integer age;
+
+
 }
